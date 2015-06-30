@@ -10,7 +10,7 @@ accounts-base
 accounts-password
 manuelschoebel:wait-on-lib
 http
-less
 nimble:restivus
 aldeed:collection2
 bootstrap
+fourseven:scss
