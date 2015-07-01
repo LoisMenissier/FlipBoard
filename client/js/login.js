@@ -12,9 +12,9 @@ Template.login.events({
                     
                     
                     if(role[0].profile.role=='admin'){
-                    	Router.go('/admin/'/* + role[0]._id*/);
+                    	Router.go('/admin/' + role[0]._id);
                     } else {
-                    	Router.go('/profil/' + role[0]._id+'/myMenu');
+                    	Router.go('/profil/' + role[0]._id);
                     }
 		 			console.log("connected success");
                 }

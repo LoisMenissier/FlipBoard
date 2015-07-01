@@ -7,6 +7,15 @@
              profile: {
                  role: 'admin'
              }
+         }),
+
+         Accounts.createUser({
+             username: 'user',
+             email: 'user@user.fr',
+             password: 'user',
+             profile: {
+                 role: 'user'
+             }
          });
      }
  });
